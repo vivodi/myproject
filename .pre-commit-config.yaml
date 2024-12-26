@@ -1,0 +1,7 @@
+repos:
+- repo: https://github.com/astral-sh/uv-pre-commit
+  rev: 0.5.15
+  hooks:
+    - id: uv-lock
+#      entry: ./set_env_vars.sh
+#
