@@ -1,0 +1,11 @@
+[project]
+name = "myproject"
+requires-python = ">=3.12"
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "myproject/version.py"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
