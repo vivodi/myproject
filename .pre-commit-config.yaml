@@ -4,4 +4,3 @@ repos:
   hooks:
     - id: uv-lock
 #      entry: ./set_env_vars.sh
-#
